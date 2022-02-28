@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/top_appbar_menu"
+            android:id="@+id/toolBar"
+            app:logo="@drawable/menu">
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomnavbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_500"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu"
+        >
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomnavbar"
+        android:layout_below="@id/appbar_layout"
+        >
+
+        <include
+            layout="@layout/fragementcontainer"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"></include>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

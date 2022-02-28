@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:title="@string/Menu">
+            <menu>
+                <item android:title="@string/myfile"
+                    android:id="@+id/myfile"
+                    android:icon="@drawable/ic_file"></item>
+
+                <item android:title="@string/shared"
+                    android:id="@+id/share"
+                    android:icon="@drawable/person"></item>
+
+                <item android:title="@string/starred"
+                    android:id="@+id/star"
+                    android:icon="@drawable/ic_baseline_star_24"></item>
+
+                <item android:title="@string/recent"
+                    android:id="@+id/recent"
+                    android:icon="@drawable/ic_wall_clock"></item>
+
+            <item android:title="Offline"
+                android:id="@+id/offline"
+                android:icon="@drawable/ic_check_mark"></item>
+
+            <item android:title="Uploads"
+                android:id="@+id/upload"
+                android:icon="@drawable/ic_upload"></item>
+
+            <item android:title="Backups"
+                android:id="@+id/backup"
+                android:icon="@drawable/ic_cloud_backup_up_arrow"></item>
+
+        <item android:title="Trash"
+                android:id="@+id/trash"
+            android:icon="@drawable/ic_delete"></item>
+            </menu>
+        </item>
+
+    </group>
+
+    <group>
+        <item android:title="@string/setting"
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_settings"
+            ></item>
+
+    </group>
+    </menu>

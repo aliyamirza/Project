@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">New Pro</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="retypePass">Retype Password</string>
+    <string name="female">Female</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forgot">Forgot Password</string>
+    <string name="account">Create a new Account</string>
+    <string name="name">Name</string>
+    <string name="aliya">Aliya Mirza</string>
+    <string name="email">aliya.mirza1264@gmail.com</string>
+    <string name="number">9936938266</string>
+    <string name="address">Lucknow, Uttar Pradesh</string>
+    <string name="birthday">Birthdate</string>
+    <string name="profile">Update Profile</string>
+    <string name="verify">Verify Phone</string>
+    <string name="otpMsg">Message will be sent on your registered Number</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="verifiedAccount">Verify and Create Account</string>
+    <string name="notification">Notification</string>
+    <string name="Message">Message</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="favorite">Favourite</string>
+    <string name="app">Amazon</string>
+    <string name="logo">OTP</string>
+    <string name="reset">Reset Password</string>
+    <string name="starred">Starred</string>
+    <string name="person">Person</string>
+    <string name="file">File</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="navhd_share">Share</string>
+    <string name="Menu">Menu</string>
+    <string name="myfile">My File</string>
+    <string name="shared">Shared with me</string>
+    <string name="recent">Recent</string>
+    <string name="setting"><![CDATA[Settings & account]]></string>
+    <string name="id">aliya.mirza1264@gmail.com</string>
+    <string name="login">Login</string>
+    <string name="pro">Profile</string>
+    <string name="txtRetrive">Retrive Data</string>
+    <string name="reset_pass">Enter Your Email Address</string>
+    <string name="btnFollow">Follow</string>
+
+    <!--    <string name="code" tools:ignore="StringEscaping">Don't receive code? try again</string>-->
+</resources>
